@@ -45,7 +45,6 @@ Booking different experiences often means switching between multiple platforms. 
 - Redis — caching and temporary reservations
 - Socket.io — real-time updates
 - Razorpay — payment processing
-- Jest & Supertest — API testing
 - Docker — containerization
 
 ## 🏛️ System Architecture
