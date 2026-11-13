@@ -1,11 +1,12 @@
 const express =require("express");
 const router=express.Router();
 
-const {signUp,login,getMyProfile }=require("../controller/auth.controller")
+const {signUp,login,getMyProfile,logout }=require("../controller/auth.controller")
 const {protect}=require("../middleware/auth.middlewar")
 
 router.post("/signup",signUp);
 router.post("/login",login);
+router.post("/logout",logout)
 
 
 

@@ -138,5 +138,14 @@ const getMyProfile=async(req,res)=>{
    })
   }
 }
+// logout
+const logout=async(req,res)=>{
+  res.status(200).json({
+        
+        success: true,
+        message: "Logout successful"
+   
+  })
+}
 
-module.exports = { signUp,login,getMyProfile };
+module.exports = { signUp,login,getMyProfile,logout };
